@@ -6,77 +6,21 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/fuxi
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/fuxi/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
-    vendor/xiaomi/fuxi/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
-    vendor/xiaomi/fuxi/proprietary/lib/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.dsi.ant@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedia_codeclist.so \
-    vendor/xiaomi/fuxi/proprietary/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/xiaomi/fuxi/proprietary/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_codecbase.so \
-    vendor/xiaomi/fuxi/proprietary/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_framecapture_utils.so \
-    vendor/xiaomi/fuxi/proprietary/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface_utils.so \
-    vendor/xiaomi/fuxi/proprietary/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.dolby.hardware.dms@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.dsi.ant@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_codeclist.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_bufferpool@2.0.1.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_codecbase.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface_utils.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.dolby.hardware.dms@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/audio-factory-test:$(TARGET_COPY_OUT_ODM)/bin/audio-factory-test \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/cstool:$(TARGET_COPY_OUT_ODM)/bin/cstool \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/fidoca:$(TARGET_COPY_OUT_ODM)/bin/fidoca \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/hw/android.hardware.biometrics.face-aidl-service:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.biometrics.face-aidl-service \
     vendor/xiaomi/fuxi/proprietary/odm/bin/hw/vendor.nxp.hardware.nfc@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.nxp.hardware.nfc@2.0-service \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service \
     vendor/xiaomi/fuxi/proprietary/odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service \
     vendor/xiaomi/fuxi/proprietary/odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service \
     vendor/xiaomi/fuxi/proprietary/odm/bin/hw/vendor.xiaomi.sensor.communicate@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.sensor.communicate@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/mifaced@1.0:$(TARGET_COPY_OUT_ODM)/bin/mifaced@1.0 \
     vendor/xiaomi/fuxi/proprietary/odm/bin/mlipayd@1.1:$(TARGET_COPY_OUT_ODM)/bin/mlipayd@1.1 \
     vendor/xiaomi/fuxi/proprietary/odm/bin/mtd@1.3:$(TARGET_COPY_OUT_ODM)/bin/mtd@1.3 \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/sbridge:$(TARGET_COPY_OUT_ODM)/bin/sbridge \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/test-nusensors:$(TARGET_COPY_OUT_ODM)/bin/test-nusensors \
     vendor/xiaomi/fuxi/proprietary/odm/bin/tidad@1.2:$(TARGET_COPY_OUT_ODM)/bin/tidad@1.2 \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/vendor.xiaomi.hardware.otrpagent@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/vendor.xiaomi.hardware.otrpagent@2.0-service \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/vib_cal:$(TARGET_COPY_OUT_ODM)/bin/vib_cal \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/vsimd:$(TARGET_COPY_OUT_ODM)/bin/vsimd \
-    vendor/xiaomi/fuxi/proprietary/odm/bin/xiaomi_ir_test:$(TARGET_COPY_OUT_ODM)/bin/xiaomi_ir_test \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/UserDefinedMi.udm:$(TARGET_COPY_OUT_ODM)/etc/UserDefinedMi.udm \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/XiaoAiNiZaiNa.uim:$(TARGET_COPY_OUT_ODM)/etc/XiaoAiNiZaiNa.uim \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/XiaoAiNiZaiNaMi.udm:$(TARGET_COPY_OUT_ODM)/etc/XiaoAiNiZaiNaMi.udm \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/XiaoAiTongXue.uim:$(TARGET_COPY_OUT_ODM)/etc/XiaoAiTongXue.uim \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/XiaoAiTongXueMi.udm:$(TARGET_COPY_OUT_ODM)/etc/XiaoAiTongXueMi.udm \
     vendor/xiaomi/fuxi/proprietary/odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb \
     vendor/xiaomi/fuxi/proprietary/odm/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio-test-config:$(TARGET_COPY_OUT_ODM)/etc/audio-test-config \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/RES1K.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/RES1K.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/bottom_spk.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/bottom_spk.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/bottom_spk_hp.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/bottom_spk_hp.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/hrtf5c.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/hrtf5c.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaokemix_res.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_res_headphone.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_headphone.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_res_spk.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_res_spk4ch.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk4ch.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/rcv.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/rcv.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/rcv_hp.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/rcv_hp.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/rcv_seal.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/rcv_seal.wav \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/silent-3sec.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/silent-3sec.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_overlay_dynamic.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_overlay_static.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/spk.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/spk.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/test.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/test.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/top_spk.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/top_spk.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/top_spk_hp.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/top_spk_hp.wav \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio_policy_engine_configuration_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration_mi.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/MILDC_CALIB_0x01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/MILDC_CALIB_0x01.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/MILDC_CAPTURE_PARAMS.json:$(TARGET_COPY_OUT_ODM)/etc/camera/MILDC_CAPTURE_PARAMS.json \
@@ -152,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/snsc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/snsc.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/snsc_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/snsc_params.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/ultrazoom.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ultrazoom.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/ultrazoom_ii.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ultrazoom_ii.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/video_stabilizer.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/video_stabilizer.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_ODM)/etc/camera/vidhance_calibration \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/xiaomi/EcoCloudInfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/EcoCloudInfo.json \
@@ -189,9 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/xmi_slmt_4x_720p.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/xmi_slmt_4x_720p.dlc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/cit_camera_resolution.json:$(TARGET_COPY_OUT_ODM)/etc/cit_camera_resolution.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/cit_param_config.json:$(TARGET_COPY_OUT_ODM)/etc/cit_param_config.json \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/default.lm:$(TARGET_COPY_OUT_ODM)/etc/default.lm \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/device_info_qr_config.yml:$(TARGET_COPY_OUT_ODM)/etc/device_info_qr_config.yml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/device_sar_config.xml:$(TARGET_COPY_OUT_ODM)/etc/device_sar_config.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLut0.txt \
     vendor/xiaomi/fuxi/proprietary/odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/clstc/ClstcLutInfo.txt \
@@ -228,18 +168,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby_vision.cfg \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/init/android.hardware.biometrics.face-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.biometrics.face-aidl-service.rc \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/init/init.boled.lightsensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.boled.lightsensor.rc \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.miface@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.miface@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/odm/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc \
@@ -248,12 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
     vendor/xiaomi/fuxi/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/fuxi/proprietary/odm/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_m3_38_0c_0a_dsc_cmd_mi.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/merged_language_model.lat:$(TARGET_COPY_OUT_ODM)/etc/merged_language_model.lat \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/mimdconfig:$(TARGET_COPY_OUT_ODM)/etc/mimdconfig \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/miperf_actvity_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/miperf_actvity_cfg.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/miperf_app_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/miperf_app_cfg.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/miperf_contable.xml:$(TARGET_COPY_OUT_ODM)/etc/miperf_contable.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/miperflock_activity_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/miperflock_activity_cfg.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/ak991x_dri_0.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/lightSensorConfig.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/lightSensorConfig.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/lsm6dso_0.json \
@@ -332,10 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-tgame.conf \
     vendor/xiaomi/fuxi/proprietary/odm/etc/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
     vendor/xiaomi/fuxi/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/vintf/manifest_fuxi.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_fuxi.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/vintf/manifest_nuwa.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_nuwa.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/vintf/manifest_socrates.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_socrates.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/vintf/manifest_wangshu.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_wangshu.xml \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/0_click_P_RTP.bin \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/101_offlineCountdown_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/101_offlineCountdown_P_RTP.bin \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/102_sceneBombInjury_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/102_sceneBombInjury_P_RTP.bin \
@@ -592,84 +515,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/st_fts_m3.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m3.ftb \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_4v.mbn \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/aon_front.pb:$(TARGET_COPY_OUT_ODM)/lib/camera/aon_front.pb \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_ofilm_ov13b10_ultra.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_ofilm_ov13b10_ultra.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_semco_imx800_wide.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_semco_imx800_wide.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele_ii.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele_ii.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_sunny_imx800_wide_ii.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_sunny_imx800_wide_ii.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_sunny_ov32c_front.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_sunny_ov32c_front.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg0.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg0.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg1.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg1.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg2.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg2.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.default.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_ofilm_ov13b10_ultra.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_ofilm_ov13b10_ultra.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_semco_imx800_wide.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_semco_imx800_wide.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele_ii.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele_ii.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_sunny_imx800_wide.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_sunny_imx800_wide.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front_global.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front_global.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.tpg.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.tpg.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigpreview.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigsecure.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigvideo.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigvideolite.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/hw/consumerir.qcom.so:$(TARGET_COPY_OUT_ODM)/lib/hw/consumerir.qcom.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/hw/displayfeature.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/displayfeature.default.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/hw/fingerprint.goodix_fod.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_fod.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libMiDispDevManager.so:$(TARGET_COPY_OUT_ODM)/lib/libMiDispDevManager.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libagmdevice.so:$(TARGET_COPY_OUT_ODM)/lib/libagmdevice.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioroute_ext.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libclient2slpi.notifier.so:$(TARGET_COPY_OUT_ODM)/lib/libclient2slpi.notifier.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libcolortempmode.so:$(TARGET_COPY_OUT_ODM)/lib/libcolortempmode.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libcrussp.so:$(TARGET_COPY_OUT_ODM)/lib/libcrussp.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libdisplaycount.so:$(TARGET_COPY_OUT_ODM)/lib/libdisplaycount.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libdither.so:$(TARGET_COPY_OUT_ODM)/lib/libdither.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libflatmode.so:$(TARGET_COPY_OUT_ODM)/lib/libflatmode.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libfpsmonitor.so:$(TARGET_COPY_OUT_ODM)/lib/libfpsmonitor.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libgf_hal.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmfido.so:$(TARGET_COPY_OUT_ODM)/lib/libmfido.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmiBrightness.so:$(TARGET_COPY_OUT_ODM)/lib/libmiBrightness.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmiSensorCtrl.so:$(TARGET_COPY_OUT_ODM)/lib/libmiSensorCtrl.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmiXmlParser.so:$(TARGET_COPY_OUT_ODM)/lib/libmiXmlParser.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmi_dspp.so:$(TARGET_COPY_OUT_ODM)/lib/libmi_dspp.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libmialgo_utils.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmiface.so:$(TARGET_COPY_OUT_ODM)/lib/libmiface.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmituning_datacenter.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_datacenter.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmituning_datacenter_base.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_datacenter_base.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmituning_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_utils.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmlipay.so:$(TARGET_COPY_OUT_ODM)/lib/libmlipay.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmlipay@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/libmlipay@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmt.so:$(TARGET_COPY_OUT_ODM)/lib/libmt.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libpaperMode.so:$(TARGET_COPY_OUT_ODM)/lib/libpaperMode.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libsdr2hdr.so:$(TARGET_COPY_OUT_ODM)/lib/libsdr2hdr.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libsensor_cal@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/libsensor_cal@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libsre.so:$(TARGET_COPY_OUT_ODM)/lib/libsre.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libssccalapi@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/libssccalapi@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libteeclientjni.so:$(TARGET_COPY_OUT_ODM)/lib/libteeclientjni.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libtida@1.2.so:$(TARGET_COPY_OUT_ODM)/lib/libtida@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libtruetone.so:$(TARGET_COPY_OUT_ODM)/lib/libtruetone.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libvideomode.so:$(TARGET_COPY_OUT_ODM)/lib/libvideomode.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libvsim.so:$(TARGET_COPY_OUT_ODM)/lib/libvsim.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libxmi_slow_motion_mein.so:$(TARGET_COPY_OUT_ODM)/lib/libxmi_slow_motion_mein.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_ODM)/lib/nfc_nci.nqx.default.hw.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/sensors.touch.detect.so:$(TARGET_COPY_OUT_ODM)/lib/sensors.touch.detect.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.mfidoca@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.mfidoca@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.mlipay@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.mtdservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.tidaservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.tidaservice@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.tidaservice@1.2.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.tidaservice@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/camera/aon_front.pb:$(TARGET_COPY_OUT_ODM)/lib64/camera/aon_front.pb \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/camera/com.qti.actuator.fuxi_semco_imx800_ak7314_wide_actuator.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.actuator.fuxi_semco_imx800_ak7314_wide_actuator.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/camera/com.qti.actuator.fuxi_semco_s5k3k1_ak7314_tele_actuator.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.actuator.fuxi_semco_s5k3k1_ak7314_tele_actuator.so \
@@ -748,14 +596,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.sr.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/plugins/com.xiaomi.plugin.sr.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.supermoon.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/plugins/com.xiaomi.plugin.supermoon.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.tsskinbeautifier.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/plugins/com.xiaomi.plugin.tsskinbeautifier.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/hw/consumerir.qcom.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/consumerir.qcom.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/displayfeature.default.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/hw/fingerprint.goodix_fod.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_fod.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/fingerprint.goodix_fod.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_fod.default.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libMiDispDevManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiDispDevManager.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libTrueSight.so:$(TARGET_COPY_OUT_ODM)/lib64/libTrueSight.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/libaachaptics.so:$(TARGET_COPY_OUT_ODM)/lib64/libaachaptics.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libagmdevice.so:$(TARGET_COPY_OUT_ODM)/lib64/libagmdevice.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libailab_rawhdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libailab_rawhdr.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libalCFR.so:$(TARGET_COPY_OUT_ODM)/lib64/libalCFR.so \
@@ -768,7 +614,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libaudioroute_ext.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioroute_ext.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libbeauty_face_interface.so:$(TARGET_COPY_OUT_ODM)/lib64/libbeauty_face_interface.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/libceresNM.so:$(TARGET_COPY_OUT_ODM)/lib64/libceresNM.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libclient2slpi.notifier.so:$(TARGET_COPY_OUT_ODM)/lib64/libclient2slpi.notifier.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libcolortempmode.so:$(TARGET_COPY_OUT_ODM)/lib64/libcolortempmode.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libcrussp.so:$(TARGET_COPY_OUT_ODM)/lib64/libcrussp.so \
@@ -811,9 +656,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libmiphone_preview_depth.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiphone_preview_depth.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libmiphone_preview_ldc.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiphone_preview_ldc.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libmiphone_preview_mdbokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiphone_preview_mdbokeh.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/libmituning_datacenter.so:$(TARGET_COPY_OUT_ODM)/lib64/libmituning_datacenter.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/libmituning_datacenter_base.so:$(TARGET_COPY_OUT_ODM)/lib64/libmituning_datacenter_base.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/libmituning_utils.so:$(TARGET_COPY_OUT_ODM)/lib64/libmituning_utils.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libmlipay.so:$(TARGET_COPY_OUT_ODM)/lib64/libmlipay.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
@@ -827,14 +669,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libsre.so:$(TARGET_COPY_OUT_ODM)/lib64/libsre.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libssccalapi@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/libssccalapi@2.0.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libsupermoon.so:$(TARGET_COPY_OUT_ODM)/lib64/libsupermoon.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_ODM)/lib64/libteeclientjni.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libtida@1.2.so:$(TARGET_COPY_OUT_ODM)/lib64/libtida@1.2.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libtruetone.so:$(TARGET_COPY_OUT_ODM)/lib64/libtruetone.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libvideomode.so:$(TARGET_COPY_OUT_ODM)/lib64/libvideomode.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libwrapper_dlengine.so:$(TARGET_COPY_OUT_ODM)/lib64/libwrapper_dlengine.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvkeybox.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libxmi_hdr_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libxmi_hdr_bokeh.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libxmi_hdr_checker.so:$(TARGET_COPY_OUT_ODM)/lib64/libxmi_hdr_checker.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libxmi_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib64/libxmi_high_dynamic_range.so \
@@ -850,426 +690,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.tidaservice@1.0.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.tidaservice@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
-    vendor/xiaomi/fuxi/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
-    vendor/xiaomi/fuxi/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
-    vendor/xiaomi/fuxi/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
-    vendor/xiaomi/fuxi/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
-    vendor/xiaomi/fuxi/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
-    vendor/xiaomi/fuxi/proprietary/system_ext/etc/perf/wlc_model.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/wlc_model.tflite \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.api@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.constants@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.constants@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.constants@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.server@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.server@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.server@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.server@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/com.quicinc.cne.server@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.quicinc.cne.server@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvideocodec.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvt.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvtextutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/lib-imsvtutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libav_ozoencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libav_ozoencoder.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdiag_system.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libdisplayconfig.system.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdisplayconfig.system.qti.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdpmframework.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libgralloc.system.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libgralloc.system.qti.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmiracastsystem.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpdecoder.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpencoder.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libozoaudio.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libozoaudio.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqcc_file_agent_sys.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libqdMetaData.system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqdMetaData.system.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libsigmautils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsigmautils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdavenhancements.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdclient.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdcommonutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdconfigutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfddisplayconfig.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfddisplayconfig.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdmminterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdmmsink.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdmmsrc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdmmsrc_system.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdrtsp.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdservice.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfdsinksm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdsinksm.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcinterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsink.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsinkinterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrc.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrcinterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/soundfx/libozoprocessing.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.10.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.11.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.12.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.12.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.13.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.13.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.14.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.14.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.8.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@1.9.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.config@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.factory@2.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.factory@2.7.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.mwqem@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.data.slm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.diaghal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.alarm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.audiohalext@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.bluetooth_audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.bluetooth_audio@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.btconfigstore@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.btconfigstore@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.cvp@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.cne.internal.server@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.cne.internal.server@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.cne.internal.server@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.connection@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.dynamicdds@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.dynamicdds@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.flow@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.flow@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.flow@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.flow@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.iwlan@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.iwlan@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.iwlan@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.lce@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.display.composer@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.display.composer@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.display.composer@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.display.composer@3.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.2-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.2-halimpl.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qccsyshal@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccsyshal@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qccvndhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.8.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.lpa@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.lpa@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.lpa@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.lpa@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.seccam@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.sigma_miracast@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.slmadapter@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.trustedui@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.trustedui@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.configservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.configservice@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.connection@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.factory@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcssip@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcssip@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcssip@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsuce@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsuce@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.rcsuce@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@3.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.latency@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.latency@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.qspmhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.api@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.api@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.constants@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.constants@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.server@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.server@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.server@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.server@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/com.quicinc.cne.server@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.quicinc.cne.server@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libav_ozoencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libav_ozoencoder.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libdisplayconfig.system.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdisplayconfig.system.qti.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libgralloc.system.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libgralloc.system.qti.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmiracastsystem.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpdecoder.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpencoder.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libozoaudio.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libozoaudio.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_file_agent_sys.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libqdMetaData.system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqdMetaData.system.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libsigmautils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsigmautils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdavenhancements.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdclient.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdcommonutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdconfigutils.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfddisplayconfig.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfddisplayconfig.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdmminterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdmmsink.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdmmsrc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdmmsrc_system.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdrtsp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdrtsp.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdservice.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfdsinksm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdsinksm.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfduibcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcinterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsink.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsinkinterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrc.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrcinterface.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/soundfx/libozoprocessing.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.10.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.11.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.12.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.12.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.13.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.13.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.14.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.14.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.8.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@1.9.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.config@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.factory@2.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.factory@2.7.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.mwqem@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.data.slm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.alarm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.btconfigstore@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.btconfigstore@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cvp@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.server@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.server@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.server@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.server@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.connection@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.dynamicdds@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.flow@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.flow@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.flow@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.flow@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.iwlan@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.iwlan@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.lce@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.display.composer@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.display.composer@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.display.composer@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.display.composer@3.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.embmssl@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.embmssl@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.embmssl@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.embmssl@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccsyshal@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qccvndhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.8.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.8.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.lpa@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.lpa@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.lpa@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.lpa@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.lpa@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.seccam@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.seccam@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.slmadapter@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.trustedui@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.trustedui@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.vpp@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.configservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.configservice@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.connection@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.factory@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcssip@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcssip@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcssip@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsuce@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsuce@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsuce@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.latency@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/AnchorTest:$(TARGET_COPY_OUT_VENDOR)/bin/AnchorTest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/COSNet_spatial_8bit_quantized.serialized.bin:$(TARGET_COPY_OUT_VENDOR)/bin/COSNet_spatial_8bit_quantized.serialized.bin \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/DFtool:$(TARGET_COPY_OUT_VENDOR)/bin/DFtool \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/KmInstallKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/KmInstallKeybox \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/MI_IC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_IC \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/MI_RIC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_RIC \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/PalTest:$(TARGET_COPY_OUT_VENDOR)/bin/PalTest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/PktRspTest:$(TARGET_COPY_OUT_VENDOR)/bin/PktRspTest \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/SoterProvisioningTool:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/StoreKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/StoreKeybox \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/TrustedUISampleTAClient:$(TARGET_COPY_OUT_VENDOR)/bin/TrustedUISampleTAClient \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/TrustedUISampleTest:$(TARGET_COPY_OUT_VENDOR)/bin/TrustedUISampleTest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/agmcap:$(TARGET_COPY_OUT_VENDOR)/bin/agmcap \
@@ -1278,93 +704,29 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/agmhostless:$(TARGET_COPY_OUT_VENDOR)/bin/agmhostless \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/agmplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmplay \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/agmvoiceui:$(TARGET_COPY_OUT_VENDOR)/bin/agmvoiceui \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ar_util_in_test_example:$(TARGET_COPY_OUT_VENDOR)/bin/ar_util_in_test_example \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/audioadsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/audioadsprpcd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/audiodsd2pcmtest:$(TARGET_COPY_OUT_VENDOR)/bin/audiodsd2pcmtest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/battery_stats:$(TARGET_COPY_OUT_VENDOR)/bin/battery_stats \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/batterysecret:$(TARGET_COPY_OUT_VENDOR)/bin/batterysecret \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ccid_daemon_nr:$(TARGET_COPY_OUT_VENDOR)/bin/ccid_daemon_nr \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/charge_logger:$(TARGET_COPY_OUT_VENDOR)/bin/charge_logger \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/chattr:$(TARGET_COPY_OUT_VENDOR)/bin/chattr \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/checkpoint_gc:$(TARGET_COPY_OUT_VENDOR)/bin/checkpoint_gc \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/chiaoncameratest:$(TARGET_COPY_OUT_VENDOR)/bin/chiaoncameratest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/chimcxtest:$(TARGET_COPY_OUT_VENDOR)/bin/chimcxtest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/chiofflinepostproctest:$(TARGET_COPY_OUT_VENDOR)/bin/chiofflinepostproctest \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/compatibilitytest:$(TARGET_COPY_OUT_VENDOR)/bin/compatibilitytest \
+    vendor/xiaomi/fuxi/proprietary/vendor/bin/consumerird:$(TARGET_COPY_OUT_VENDOR)/bin/consumerird \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/cplay:$(TARGET_COPY_OUT_VENDOR)/bin/cplay \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ctrlapp_dut:$(TARGET_COPY_OUT_VENDOR)/bin/ctrlapp_dut \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/debug-diag:$(TARGET_COPY_OUT_VENDOR)/bin/debug-diag \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/devmem:$(TARGET_COPY_OUT_VENDOR)/bin/devmem \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/diag-router:$(TARGET_COPY_OUT_VENDOR)/bin/diag-router \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/diag_callback_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_callback_sample \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/diag_dci_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_dci_sample \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/diag_klog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_klog \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/diagcommd:$(TARGET_COPY_OUT_VENDOR)/bin/diagcommd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/disp_factory_tool:$(TARGET_COPY_OUT_VENDOR)/bin/disp_factory_tool \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/displayfeature:$(TARGET_COPY_OUT_VENDOR)/bin/displayfeature \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/e_loop:$(TARGET_COPY_OUT_VENDOR)/bin/e_loop \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/edgnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/edgnss-daemon \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/embmsslServer:$(TARGET_COPY_OUT_VENDOR)/bin/embmsslServer \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/engine-service:$(TARGET_COPY_OUT_VENDOR)/bin/engine-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/f2managertest:$(TARGET_COPY_OUT_VENDOR)/bin/f2managertest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/f2player:$(TARGET_COPY_OUT_VENDOR)/bin/f2player \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/fastrpc_tests_apps:$(TARGET_COPY_OUT_VENDOR)/bin/fastrpc_tests_apps \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/fastrpc_tests_apps32:$(TARGET_COPY_OUT_VENDOR)/bin/fastrpc_tests_apps32 \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ffu:$(TARGET_COPY_OUT_VENDOR)/bin/ffu \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/fmconfig:$(TARGET_COPY_OUT_VENDOR)/bin/fmconfig \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/fmfactorytest:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/fmfactorytestserver:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytestserver \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/fsync:$(TARGET_COPY_OUT_VENDOR)/bin/fsync \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.atrace@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.atrace@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.audio.service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service_64 \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.boot@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot@1.2-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.drm-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.clearkey \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.drm-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.widevine \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.dumpstate-service.xiaomi:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate-service.xiaomi \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.gnss-aidl-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-aidl-service-qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.health-service.qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health-service.qti \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.identity-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.identity-service-qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.ir-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.ir-service.example \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.power-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service-qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.sensors-service.multihal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors-service.multihal \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.qti-v2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.qti-v2 \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.usb.gadget@1.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb.gadget@1.1-service-qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/capabilityconfigstoretest:$(TARGET_COPY_OUT_VENDOR)/bin/hw/capabilityconfigstoretest \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/dolbycodec2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/dolbycodec2 \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/fbo-test:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fbo-test \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/mfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfp-daemon \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/miperf_client:$(TARGET_COPY_OUT_VENDOR)/bin/hw/miperf_client \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/qconfigservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qconfigservice \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/qcrilNrd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrilNrd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/qvrservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qvrservice \
@@ -1374,16 +736,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.dolby.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.media.c2@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.camera.provider-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.camera.provider-service_64 \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.display.allocator-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.allocator-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.display.demura-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.demura-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.factory@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.factory@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.iop@2.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.lights.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.lights.service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.limits@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.limits@1.2-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.memtrack-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.memtrack-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.perf-hal-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf-hal-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
@@ -1400,110 +757,51 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.secure_element@1.2-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.qti.sla.service@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.sla.service@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.rongcard.hardware.eid@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.rongcard.hardware.eid@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.cit.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.cit.bluetooth@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.cit.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.cit.wifi@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.cld@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.cld@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.fbo@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.fbo@1.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.mimd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.mimd@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.miperf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.miperf@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misight.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misight.service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@3.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@4.0-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.quickcamera@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.quickcamera@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hidl.minet@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hidl.minet@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.hidl.miwill@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hidl.miwill@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/vendor.xiaomi.modem.qms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.modem.qms@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/hwinfo:$(TARGET_COPY_OUT_VENDOR)/bin/hwinfo \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/i2cset:$(TARGET_COPY_OUT_VENDOR)/bin/i2cset \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/iconv:$(TARGET_COPY_OUT_VENDOR)/bin/iconv \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/imsdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdaemon \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/install:$(TARGET_COPY_OUT_VENDOR)/bin/install \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/iperf:$(TARGET_COPY_OUT_VENDOR)/bin/iperf \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/iperf3:$(TARGET_COPY_OUT_VENDOR)/bin/iperf3 \
+    vendor/xiaomi/fuxi/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
+    vendor/xiaomi/fuxi/proprietary/vendor/bin/init.qcom.usb.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.usb.sh \
+    vendor/xiaomi/fuxi/proprietary/vendor/bin/init.qti.display_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.display_boot.sh \
+    vendor/xiaomi/fuxi/proprietary/vendor/bin/init.qti.qcv.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qcv.sh \
+    vendor/xiaomi/fuxi/proprietary/vendor/bin/init.qti.write.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.write.sh \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/iw:$(TARGET_COPY_OUT_VENDOR)/bin/iw \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/iwconfig:$(TARGET_COPY_OUT_VENDOR)/bin/iwconfig \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/iwlist:$(TARGET_COPY_OUT_VENDOR)/bin/iwlist \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/loadalgo:$(TARGET_COPY_OUT_VENDOR)/bin/loadalgo \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/lowi_test:$(TARGET_COPY_OUT_VENDOR)/bin/lowi_test \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/lsattr:$(TARGET_COPY_OUT_VENDOR)/bin/lsattr \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/mbnota:$(TARGET_COPY_OUT_VENDOR)/bin/mbnota \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/mcs_test:$(TARGET_COPY_OUT_VENDOR)/bin/mcs_test \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/mec:$(TARGET_COPY_OUT_VENDOR)/bin/mec \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/minetd:$(TARGET_COPY_OUT_VENDOR)/bin/minetd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/minidump64:$(TARGET_COPY_OUT_VENDOR)/bin/minidump64 \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/miwild:$(TARGET_COPY_OUT_VENDOR)/bin/miwild \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/mm-audio-ftm:$(TARGET_COPY_OUT_VENDOR)/bin/mm-audio-ftm \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/mmid:$(TARGET_COPY_OUT_VENDOR)/bin/mmid \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/modemManager:$(TARGET_COPY_OUT_VENDOR)/bin/modemManager \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/modem_api_test:$(TARGET_COPY_OUT_VENDOR)/bin/modem_api_test \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/mtb:$(TARGET_COPY_OUT_VENDOR)/bin/mtb \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/myftm:$(TARGET_COPY_OUT_VENDOR)/bin/myftm \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/nativechitest:$(TARGET_COPY_OUT_VENDOR)/bin/nativechitest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/nativehaltest:$(TARGET_COPY_OUT_VENDOR)/bin/nativehaltest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/nc:$(TARGET_COPY_OUT_VENDOR)/bin/nc \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/netcat:$(TARGET_COPY_OUT_VENDOR)/bin/netcat \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/nproc:$(TARGET_COPY_OUT_VENDOR)/bin/nproc \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/nqnfcinfo:$(TARGET_COPY_OUT_VENDOR)/bin/nqnfcinfo \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/nsenter:$(TARGET_COPY_OUT_VENDOR)/bin/nsenter \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/nv_mac:$(TARGET_COPY_OUT_VENDOR)/bin/nv_mac \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/offcamtest:$(TARGET_COPY_OUT_VENDOR)/bin/offcamtest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/osal_in_test_example:$(TARGET_COPY_OUT_VENDOR)/bin/osal_in_test_example \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/pktlogconf:$(TARGET_COPY_OUT_VENDOR)/bin/pktlogconf \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/pm_ioctl_app:$(TARGET_COPY_OUT_VENDOR)/bin/pm_ioctl_app \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/pmic_key_reset:$(TARGET_COPY_OUT_VENDOR)/bin/pmic_key_reset \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/pnscr:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/pnscr-mi:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr-mi \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/pnscr-rf:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr-rf \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/poweroffm64:$(TARGET_COPY_OUT_VENDOR)/bin/poweroffm64 \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/poweropt-service:$(TARGET_COPY_OUT_VENDOR)/bin/poweropt-service \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/ppd:$(TARGET_COPY_OUT_VENDOR)/bin/ppd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qcc-trd:$(TARGET_COPY_OUT_VENDOR)/bin/qcc-trd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qcc-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/qcc-vendor \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qcom-system-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qcom-system-daemon \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qconfigfunctest:$(TARGET_COPY_OUT_VENDOR)/bin/qconfigfunctest \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qdcmss:$(TARGET_COPY_OUT_VENDOR)/bin/qdcmss \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qdss_qmi_helper:$(TARGET_COPY_OUT_VENDOR)/bin/qdss_qmi_helper \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qesdk-manager:$(TARGET_COPY_OUT_VENDOR)/bin/qesdk-manager \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qguard:$(TARGET_COPY_OUT_VENDOR)/bin/qguard \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:$(TARGET_COPY_OUT_VENDOR)/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qmipriod:$(TARGET_COPY_OUT_VENDOR)/bin/qmipriod \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qms:$(TARGET_COPY_OUT_VENDOR)/bin/qms \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qsap_dcfd:$(TARGET_COPY_OUT_VENDOR)/bin/qsap_dcfd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qsap_location:$(TARGET_COPY_OUT_VENDOR)/bin/qsap_location \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qsap_qapeservice:$(TARGET_COPY_OUT_VENDOR)/bin/qsap_qapeservice \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qsap_sensors:$(TARGET_COPY_OUT_VENDOR)/bin/qsap_sensors \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qsap_voiceui:$(TARGET_COPY_OUT_VENDOR)/bin/qsap_voiceui \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qseecom_sample_client:$(TARGET_COPY_OUT_VENDOR)/bin/qseecom_sample_client \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qsh_wifi_test:$(TARGET_COPY_OUT_VENDOR)/bin/qsh_wifi_test \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qtigetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtigetprop \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qtisetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtisetprop \
@@ -1512,66 +810,28 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qvrdatalogger:$(TARGET_COPY_OUT_VENDOR)/bin/qvrdatalogger \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qvrdatauploader:$(TARGET_COPY_OUT_VENDOR)/bin/qvrdatauploader \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/qvrservicetest:$(TARGET_COPY_OUT_VENDOR)/bin/qvrservicetest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/qwesd:$(TARGET_COPY_OUT_VENDOR)/bin/qwesd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/readelf:$(TARGET_COPY_OUT_VENDOR)/bin/readelf \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/rtcwake:$(TARGET_COPY_OUT_VENDOR)/bin/rtcwake \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/show_reserved_mem:$(TARGET_COPY_OUT_VENDOR)/bin/show_reserved_mem \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/shsusrd:$(TARGET_COPY_OUT_VENDOR)/bin/shsusrd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/sigma_dut:$(TARGET_COPY_OUT_VENDOR)/bin/sigma_dut \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/slad:$(TARGET_COPY_OUT_VENDOR)/bin/slad \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/spectraltool:$(TARGET_COPY_OUT_VENDOR)/bin/spectraltool \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ssgqmigd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgqmigd \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ssgqmigd64:$(TARGET_COPY_OUT_VENDOR)/bin/ssgqmigd64 \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/ssgtzd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgtzd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/tcpdump:$(TARGET_COPY_OUT_VENDOR)/bin/tcpdump \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/test:$(TARGET_COPY_OUT_VENDOR)/bin/test \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/test_diag:$(TARGET_COPY_OUT_VENDOR)/bin/test_diag \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/testapp_diag_senddata:$(TARGET_COPY_OUT_VENDOR)/bin/testapp_diag_senddata \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/thermal-engine-v2:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine-v2 \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/trusteduilistener:$(TARGET_COPY_OUT_VENDOR)/bin/trusteduilistener \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/ubwcconvert:$(TARGET_COPY_OUT_VENDOR)/bin/ubwcconvert \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/uclampset:$(TARGET_COPY_OUT_VENDOR)/bin/uclampset \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/uet:$(TARGET_COPY_OUT_VENDOR)/bin/uet \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/vendor.dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.dpmd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/vendor.qti.hardware.soter@1.0-provision:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.hardware.soter@1.0-provision \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.qspmhal@1.0-service \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/vendor_cmd_tool:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_cmd_tool \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/vmmgr:$(TARGET_COPY_OUT_VENDOR)/bin/vmmgr \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/vppcommonlibraryunittest:$(TARGET_COPY_OUT_VENDOR)/bin/vppcommonlibraryunittest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/vppipcunittest:$(TARGET_COPY_OUT_VENDOR)/bin/vppipcunittest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/vpplibraryfunctionaltest:$(TARGET_COPY_OUT_VENDOR)/bin/vpplibraryfunctionaltest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/vpplibraryunittest:$(TARGET_COPY_OUT_VENDOR)/bin/vpplibraryunittest \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/vppserviceunittest:$(TARGET_COPY_OUT_VENDOR)/bin/vppserviceunittest \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/wdsdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/wdsdaemon \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/wfdhdcphalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdhdcphalservice \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/wfdvndservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdvndservice \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/wificfrtool:$(TARGET_COPY_OUT_VENDOR)/bin/wificfrtool \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/wifilearner:$(TARGET_COPY_OUT_VENDOR)/bin/wifilearner \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/wlanramdumpcollector:$(TARGET_COPY_OUT_VENDOR)/bin/wlanramdumpcollector \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/xiaomi_cellinfo_test:$(TARGET_COPY_OUT_VENDOR)/bin/xiaomi_cellinfo_test \
-    vendor/xiaomi/fuxi/proprietary/vendor/bin/xiaomi_extend_cmd:$(TARGET_COPY_OUT_VENDOR)/bin/xiaomi_extend_cmd \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/xiaomi/fuxi/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/IPACM_Filter_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_Filter_cfg.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
@@ -1600,27 +860,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/adsp_sleep_monitor.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/audio_effects.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/audio_effects.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/audio_policy_configuration.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_cdp.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_cdp_wsa883x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_cdp_wsa883x.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_grd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_grd.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_qrd.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_cdp.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_grd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_grd.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio/sku_kalama_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
@@ -1644,10 +884,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_Sepia.png \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/129_Vivid.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/129_Vivid.png \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/130_Natural.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/130_Natural.png \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/131_Monochrome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/131_Monochrome.png \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/132_MonochromeHighContrast.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/132_MonochromeHighContrast.png \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/133_MonochromeBrown.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/133_MonochromeBrown.png \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/134_MonochromeBlue.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/134_MonochromeBlue.png \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/131_Monochrom.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/131_Monochrom.png \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/132_MonochromHighContrast.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/132_MonochromHighContrast.png \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/af_class_all.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_class_all.dlc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/af_class_human.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/af_class_human.dlc \
@@ -1983,7 +1221,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/resources/render/glsl/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/glsl/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/resources/truesight_param.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/truesight_param.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/camera/resources/truesight_param_debug.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/truesight_param_debug.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/charger_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/charger_diag.cfg \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
@@ -2022,7 +1259,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
@@ -2031,109 +1267,45 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/backlight_calib_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/backlight_calib_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/backlight_calib_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/backlight_calib_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/backlight_calib_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/backlight_calib_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_with_DSC.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/backlight_calib_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/backlight_calib_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/backlight_calib_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/backlight_calib_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/backlight_calib_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/backlight_calib_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_Sharp_qhd_cmd_mode_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_Sharp_qhd_cmd_mode_dsi_panel.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_without_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_without_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_with_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_without_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_panel_without_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_with_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_without_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_r66451_amoled_video_mode_dsi_visionox_panel_without_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_cmd_mode_dsi_visionox_panel_with_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_cmd_mode_dsi_visionox_panel_with_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/ftm_test_config_kalama-grd-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_kalama-grd-snd-card \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/ftm_test_config_kalama-qrd-snd-card:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_kalama-qrd-snd-card \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/gps_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gps_diag.cfg \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/hrtf5c.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hrtf5c.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.audio.service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service_64.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.health-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.qti.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.ir-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir-service.example.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.power-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.qti-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.qti-v2.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/dcfd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dcfd.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/ddr_training.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ddr_training.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/diagcommd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/diagcommd.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/dolbycodec2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dolbycodec2.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/dumpstate-xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dumpstate-xiaomi.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/ffu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ffu.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/hw/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.charge_logger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.charge_logger.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.hwinfo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hwinfo.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.mfp-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mfp-daemon.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.qdmastats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qdmastats.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.qti.display_boot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.display_boot.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.spuservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.spuservice.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.vendor.ins.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.ins.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.vendor.qti.spu@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.qti.spu@1.1-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/ipacm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/libxiaomi_qcril.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libxiaomi_qcril.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/memtrack_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack_qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/mi-misight.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi-misight.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/mi_ic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ic.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/mi_ric.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mi_ric.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/minetd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/minetd.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/minidump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/minidump.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/miwild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miwild.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/modemManager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modemManager.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -2143,14 +1315,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qguard.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qguard.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qvrd_vndr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qvrd_vndr.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/slad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slad.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/sxrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sxrd.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
@@ -2158,36 +1326,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.mbnota.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mbnota.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.audio-adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.audio-adsprpc-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.battery_stats.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.battery_stats.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag_userdebug.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.allocator-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.display.composer-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.composer-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.lights.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.lights.service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.limits-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.limits-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf-hal-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.secureprocessor@1.0.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wificfr@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wificfr@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc \
@@ -2200,28 +1357,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.rongcard.hardware.eid@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.rongcard.hardware.eid@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.cit.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.cit.bluetooth@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.cit.wifi@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.cld@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.cld@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.fbo@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.fbo@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mimd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mimd@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.miperf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.miperf@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hidl.minet@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hidl.minet@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.hidl.miwill@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hidl.miwill@1.0-service.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vendor.xiaomi.modem.qms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.modem.qms@1.0-service.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/init/wlanramdumpcollector.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlanramdumpcollector.rc \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/libnfc-SN220_19_2MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_19_2MHZ.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/libnfc-SN220_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_38_4MHZ.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/libnfc-hal-st-519_mtp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st-519_mtp.conf \
@@ -2247,37 +1388,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/lm/sPLHFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/sPLHFeature.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_kalama.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_kalama.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_kalama_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_kalama_vendor.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_no_dolbyencoder_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_no_dolbyencoder_vendor.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_performance_kalama.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_kalama.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_performance_kalama_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_kalama_vendor.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_kalama/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_kalama/video_system_specs.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_profiles_kalama.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_kalama.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/misound_asc_model.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/misound_asc_model.tflite \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk.bin \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/modem/Diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/Diag.cfg \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/modem/Diag_data.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/Diag_data.cfg \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/modem/Diag_default.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/Diag_default.cfg \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/modem/Diag_global.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/Diag_global.cfg \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/modem/Diag_ims.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/modem/Diag_ims.cfg \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
@@ -2293,7 +1416,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/perf/thermal-boost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermal-boost.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/perf/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalbreakboostconfig.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/pwr/AODPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/AODPowerOptFeature.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
@@ -2322,16 +1449,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qguard.json:$(TARGET_COPY_OUT_VENDOR)/etc/qguard.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/qvirtmgr-vndr.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvirtmgr-vndr.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua.txt \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/res/images/default/charger/battery_fail.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/battery_fail.png \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/res/images/default/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/battery_scale.png \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
@@ -2341,34 +1464,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/gnss@2.0-qsap-location.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-qsap-location.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/modemManager.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/modemManager.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qsap_dcfd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_dcfd.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qsap_sensors.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_sensors.policy \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/sxr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sxr@2.0.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_diag.cfg \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/sensors/config/kailua_qsh_ble_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_qsh_ble_0.json \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/sensors/config/qsh_ble.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_ble.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/sla/slad.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sla/slad.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/smomo_setting.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smomo_setting.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
@@ -2393,32 +1504,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/tzlog.dict:$(TARGET_COPY_OUT_VENDOR)/etc/tzlog.dict \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/usb_compositions.conf:$(TARGET_COPY_OUT_VENDOR)/etc/usb_compositions.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/vintf/manifest_kalama.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_kalama.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/kiwi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/kiwi/WCNSS_qcom_cfg.ini \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/passpointProfile.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/passpointProfile.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6490/WCNSS_qcom_cfg.ini \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
-    vendor/xiaomi/fuxi/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/a740_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_sqe.fw \
-    vendor/xiaomi/fuxi/proprietary/vendor/firmware/a740_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.elf \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
@@ -2451,605 +1547,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/camx.device-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/camx.provider-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.dsi.ant@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qti.settings.sm8550.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.settings.sm8550.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.xiaomi.camhal.overlap.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.xiaomi.camhal.overlap.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.xiaomi.camhal.submodel.camxfrag.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.xiaomi.camhal.submodel.camxfrag.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.xiaomi.camhal.submodel.chifrag.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.xiaomi.camhal.submodel.chifrag.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libVkLayer_ADRENO_qprofiler.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@5.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.audio@7.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.1-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.renderscript@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.1-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.2-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.3-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/audio.primary.kalama.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.kalama.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.dsi.ant@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/sensors.dynamic_sensor_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.dynamic_sensor_hal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/sound_trigger.primary.kalama.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.kalama.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.1-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.bttpi-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bttpi-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.soter@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.memory.pasrmanager@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.rongcard.hardware.eid@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.rongcard.hardware.eid@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.cld@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.cld@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.fbo@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.fbo@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.miperf@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.miperf@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscommon.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-imsrcsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcsservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-imsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-imsvtcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvtcore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsxml.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-qhcpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-qhcpservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libAF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAF.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libDspIOProxy_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDspIOProxy_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEGL_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libEvrcSwCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEvrcSwCodec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libFace3DTA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFace3DTA.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libFace3D_hlos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFace3D_hlos.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLESv2_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libGPMTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPMTEEC_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libMapService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMapService.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libMiVDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiVDR.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxCore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libPeripheralStateUtils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPeripheralStateUtils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPlatformValidatorShared.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQ6MSFR_manager_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQ6MSFR_manager_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQcelp13SwCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQcelp13SwCodec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnChrometraceProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnChrometraceProfilingReader.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnCpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnCpu.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnGpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnGpu.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnGpuNetRunExtensions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnGpuNetRunExtensions.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnGpuProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnGpuProfilingReader.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnHtpNetRunExtensions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpNetRunExtensions.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnHtpPrepare.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpPrepare.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnHtpProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpProfilingReader.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnHtpV73CalculatorStub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnHtpV73CalculatorStub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnSaver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnSaver.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQnnSystem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQnnSystem.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libQtiRilLoadable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQtiRilLoadable.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libScenescape.so:$(TARGET_COPY_OUT_VENDOR)/lib/libScenescape.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeDspV65Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeDspV65Stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeDspV66Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeDspV66Stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeHta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHta.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeHtpPrepare.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpPrepare.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeHtpV68Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV68Stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeHtpV69Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV69Stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeHtpV73Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV73Stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libStereoRectifyWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStereoRectifyWrapper.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTouchInputVM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTouchInputVM.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTrustedInput.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInput.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTrustedInputTZ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInputTZ.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTrustedInputUtils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedInputUtils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTrustedUI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedUI.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTrustedUITZ.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedUITZ.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTrustedUIVM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTrustedUIVM.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libTxPwrJni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTxPwrJni.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libXMFaceFocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFaceFocus.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bt_aptx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bt_ble.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bt_bundle.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/lib_bt_lhdc.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bt_lhdc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_compress_plugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_mixer_plugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagm_pcm_plugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagmclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libagmmixer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libaodoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaodoptfeature.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-acdb.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gpr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-gsl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libar-pal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libar-pal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1cper.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crt.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libasn1crtx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crtx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libats.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libaudiochargerlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiochargerlistener.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libaudiocloudctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocloudctrl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbacklight-calib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbacklight-calib.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatching.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_aidl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbluetooth_audio_session_aidl_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_aidl_qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti_2_1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libboot_control_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libboot_control_qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-hidlclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcalculator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalculator.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcalculator_htp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalculator_htp.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcamxcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxcommonutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcamxsettingsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxsettingsmanager.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcapiv2svacnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnnvendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcapiv2svarnnvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnnvendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcapiv2udk7vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2udk7vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcapiv2uvvendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2uvvendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw_remote_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcheckpid.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libclstc_algorithm_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libclstc_algorithm_adapter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libclstc_gcp_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libclstc_gcp_adapter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libclstc_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libclstc_tm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneoplookup.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcv_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcv_common.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdigital-dimming.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdigital-dimming.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayconfig.qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdisplaydebug.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplaydebug.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdisplayfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayfeature.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdisplayfeatureservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayfeatureservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdisplayskuutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayskuutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdlbpreg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbpreg.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpps.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libeai_fixed_32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeai_fixed_32.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libengineplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengineplugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libesepmconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libesepmconfig.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libesesbprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libesesbprovision.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libeva.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeva.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libeva_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeva_util.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libeye_tracking_dsp_sample_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeye_tracking_dsp_sample_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libeyecare.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeyecare.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libface3d_dev.so:$(TARGET_COPY_OUT_VENDOR)/lib/libface3d_dev.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libfilefinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilefinder.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfmpal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgame_enhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgame_enhance.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofencing.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgpt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpt.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_tonemapper.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc.qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgralloccore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloccore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhalide_hexagon_host.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhalide_hexagon_host.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2p2prov.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdr_backlight_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_backlight_adapter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdr_hbm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_hbm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamic.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamicootf.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhdrvivid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvivid.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhfp_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfp_pal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhidparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidparser.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libhta_hexagon_runtime_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhta_hexagon_runtime_snpe.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libintervmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libintervmipc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjson.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libkaraokepal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkaraokepal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkcl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkernelmanager.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblistensoundmodel2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libloadtrusteduiapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloadtrusteduiapp.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libloc_api_wds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_wds.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_core.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libloc_eng_hub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_eng_hub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libloc_socket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_socket.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libloc_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_util.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocation_api_msg.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api_msg.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocation_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_client_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocation_integration_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_integration_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocation_qesdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_qesdk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice_glue.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblocdiagiface.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocdiagiface.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblogwrap_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-ar_util.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblx-osal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmapdata_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmapdata_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmasc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmasc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmcs.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediautils_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmemutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmi-stc-HW-modulate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmi-stc-HW-modulate.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmiClstc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiClstc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_ai_vision.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmidebuggerdimpl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmidebuggerdimpl_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libminksocket_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmisight.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmisoundsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmisoundsa.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmispowerop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmispowerop.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnanopb.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnative-api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgr_datapath_proxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_datapath_proxy.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_nr_fusion.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_rmnet_ext.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgr_sscm3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_sscm3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgr_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgrext_interface_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgrext_interface_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgrext_interface_server.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgrext_interface_server.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgrmodemproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgrmodemproxy.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgrportutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgrportutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnetmgrxfrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgrxfrmutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnlnetmgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemaids_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib/libops.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpal_net_if.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpalclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpasrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpasrutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfioctl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpichdralgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpichdralgo.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libplatformconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplatformconfig.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpowercallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercallback.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowercore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpsi.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libpsmoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpsmoptfeature.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libq3dtools_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqape_oem_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqape_oem_ext.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_base.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_basecodec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_core.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_hooks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_hooks.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_hwaudiocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_hwaudiocodec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_platform.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_swaudiocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_swaudiocodec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2audio_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2audio_utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2colorconvertfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2colorconvertfilter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2filter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2filter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqc2vppfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2vppfilter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcc_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_sdk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_base.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_basecodec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_core.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_cvpfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_cvpfilter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_filterbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_filterbase.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_hooks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_hooks.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_imgtxrfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_imgtxrfilter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_mockfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_mockfilter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_mockqc2filter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_mockqc2filter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_platform.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_salmapfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_salmapfilter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_streaminteg_filter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_streaminteg_filter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcodec2_v4l2codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcodec2_v4l2codec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqconfigclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqconfigclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrilDataModule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilDataModule.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrilNr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrilNrFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrFramework.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrilNrLogger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrLogger.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrilNrQtiBus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrQtiBus.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrilNrQtiMutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilNrQtiMutex.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrildataaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildataaidl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildatactl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqcrildataqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrildataqos.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdcm-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-algo.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdcm-json-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-json-mode-parser.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdcm-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdcm-mode-parser.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdpr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdpr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqesdk2_0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqesdk2_0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqesdk_manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqesdk_manager.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csvt_srvc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_legacy.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmiextservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiextservices.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqms_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqms_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqnnengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqnnengine.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqrtrclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtrclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqsh_ble_pb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsh_ble_pb.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqshcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqshcamera.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti-qesdk-secure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-qesdk-secure.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_vndfwk_detect.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqti_vndfwk_detect_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_vndfwk_detect_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqtigefar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigefar.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqtiidentitycredential.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtiidentitycredential.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqtikeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymint.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libquickcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquickcamera.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvr_cam_cdsp_driver_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvr_cam_cdsp_driver_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvr_cdsp_driver_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvr_cdsp_driver_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvr_eyetracking_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvr_eyetracking_plugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvr_hostcontroller_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvr_hostcontroller_plugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvrcamera_client.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrcamera_client.qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvrcameraplayback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrcameraplayback.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvrservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvrservice_client.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrservice_client.qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvrservice_ov7251_hvx_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrservice_ov7251_hvx_tuning.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvrservice_ov9282_hvx_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrservice_ov9282_hvx_tuning.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqvrservice_v4l_ov7251_hvx_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqvrservice_v4l_ov7251_hvx_tuning.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/librcmask.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcmask.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/librecovery_updater.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecovery_updater.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecovery_updater_msm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libresampler.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libreverse_rpc_tests_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreverse_rpc_tests_skel.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libril-db.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-db.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libril-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-legacy.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-ltedirectdisc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/librilqmimiscservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilqmimiscservices.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmnetctl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsamplefilterplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamplefilterplugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-colormgr-algo.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-vndapis.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmcore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdmdal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmdal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsensor_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_calibration.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libshsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshsc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libskewknob.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskewknob.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libslimclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsn220u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn220u_fw.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnapdragoncolor-manager.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsnapdragoncolor-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnapdragoncolor-qdcm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsndcardparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndcardparser.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsns_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsns_direct_channel_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_direct_channel_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsns_dynamic_loader_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_dynamic_loader_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_registry_skel.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsns_remote_proc_state_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_remote_proc_state_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsnsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsoc_helper_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper_jni.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspatializerparamstorage.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libstandbyfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstandbyfeature.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsxrservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsxrservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynergy_loc_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsys_info_cache.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsys_info_cache.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libtestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtestutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libtracker_6dof_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtracker_6dof_impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libturboschedmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libturboschedmanager.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideooptfeature.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvideotxr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideotxr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvmfilexfer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvmfilexfer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvmmem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvmmem.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvndfwk_detect_jni.qti_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvppcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppcommon.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphcp.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvppimmotion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppimmotion.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpptestutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvui_dmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvui_dmgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libvui_dmgr_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvui_dmgr_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libwifi-hal-ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-ctrl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-qcom.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libxiaomi_qcril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxiaomi_qcril.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxlog.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol_uri_v3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.st21nfc.st.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilInterfaces.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilInterfaces.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilMarshal.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilMarshal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNrQmiModule.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNrQmiModule.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNrSecureMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNrSecureMode.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_IQtiRadioConfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_IQtiRadioConfig.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_IRadioConfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_IRadioConfig.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_IRadioMessaging.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_IRadioMessaging.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_IRadioModem.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_IRadioModem.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_IRadioNetwork.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_IRadioNetwork.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_IRadioSim.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_IRadioSim.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_IRadioVoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_IRadioVoice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrilNr_aidl_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrilNr_aidl_common.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrild_libqcrilnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_libqcrilnr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qcrild_libqcrilnrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_libqcrilnrutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qsysd-diag-plugin/libffbmdiagplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/qsysd-diag-plugin/libffbmdiagplugin.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qti.video.utils.videobufferlayout.so:$(TARGET_COPY_OUT_VENDOR)/lib/qti.video.utils.videobufferlayout.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qtiPeripheralMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiPeripheralMgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qtiril-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiril-utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/qtiwakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtiwakelock.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n29.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n29.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n30.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n30.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n35.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n35.bin \
@@ -3147,260 +1644,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/libvpp_vqa_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_vqa_networks.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpt_action_recognition.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdlbvol.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgenerator.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libhwdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhwdap.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libmisoundfx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmisoundfx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcompostprocbundle.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvisualizer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libquasar.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libquasar.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspatializer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libswspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswspatializer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswvqe.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.color@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.10.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.11.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.8.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.9.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmctmgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmfdmgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmframework.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.libdpmtcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libdpmtcm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.libmwqemiptablemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.libmwqemiptablemgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.nxp.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.4.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.5.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.6.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.factory@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.7.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.mwqem@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.slm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.diaghal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.gnss-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss-V2-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.gnss-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss-service.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.AGMIPC@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.automotive.vehicle@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.bluetooth.audio-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth.audio-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_audio@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_audio@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.btconfigstore@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.bttpi-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bttpi-V2-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.server@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connectionfactory-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.dataactivity-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dataactivity-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.flow@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.flow@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.flow@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.flow@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.iwlan@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.iwlan@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.iwlan@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.ka-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.ka-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.lce@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.allocator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.allocator@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.allocator@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.allocator@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.allocator@4.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.composer@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.composer@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.composer@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.composer@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.composer@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.composer@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.config-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.config-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.config-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.config-V2-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.config-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.config-V3-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.config-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.config-V4-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.config-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.config-V5-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.config-V6-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.config-V6-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.demura@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.demura@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapper@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapper@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapper@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapper@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapper@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapper@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapper@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapper@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapper@4.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapperextensions@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapperextensions@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapperextensions@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapperextensions@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapperextensions@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.display.mapperextensions@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.display.mapperextensions@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dpmservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.dpmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dpmservice@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.mwqemadapter@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.pal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.pal@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.pal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.pal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.perf@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.power.powermodule@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.power.powermodule@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qccsyshal@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccsyshal@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qccvndhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qconfig@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.qxr-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qxr-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.am-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims-V7-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims-V7-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.ims@1.8.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.lpa@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.lpa@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qcrilhook-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio-V8-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio-V8-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.4.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.5.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradio@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradio@2.6.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.qtiradioconfig-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.qtiradioconfig-V2-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.servicetracker@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.servicetracker@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.servicetracker@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.servicetracker@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.servicetracker@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.servicetracker@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.slmadapter@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.soter@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.systemhelper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.systemhelper@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.trustedui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.trustedui@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.trustedui@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.trustedui@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.trustedui@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.trustedui@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.hardware.vpp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.callcapability@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.callinfo@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.configservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.configservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.configservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.configservice@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.connection@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.factory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.factory@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.factory@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcssip@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcssip@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcssip@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcssip@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcssip@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcssip@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcsuce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsuce@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcsuce@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsuce@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.ims.rcsuce@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsuce@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.1-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.1-service-Impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.imsrtpservice@3.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@3.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.latency@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.memory.pasrmanager@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.memory.pasrmanager@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.power.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.power.pasrmanager@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.qesdhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.qesdhal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdhal@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.qesdhal@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdhal@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.qesdhal@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdhal@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.qesdsys-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qesdsys-V3-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.qspmhal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.sla.service@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.sla.service@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.sla.service@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.sla.service@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.rongcard.hardware.eid@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.rongcard.hardware.eid@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.cld@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.cld@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.fbo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.fbo@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.micharge@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.miface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.miface@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.miperf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.miperf@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.misys@4.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.quickcamera@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hidl.minet@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hidl.minet@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hidl.minet@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hidl.minet@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hidl.miwill@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hidl.miwill@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hidl.miwill@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hidl.miwill@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hw.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hw.touchfeature@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.sensor.citsensorservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.sensor.citsensorservice@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.sensor.citsensorservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.sensor.citsensorservice@2.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/android.hardware.tetheroffload.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.config@1.0.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/android.hardware.tetheroffload.control@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.control@1.0.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/android.hardware.tetheroffload.control@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.control@1.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/c2.dolby.avc.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.avc.dec.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/c2.dolby.avc.sec.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.avc.sec.dec.so \
@@ -3489,7 +1736,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/camera/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libPlatformValidatorShared.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/camx.device-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camx.device-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/camx.provider-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camx.provider-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.dsi.ant@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.fingerprints.extension@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@3.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.camx.chiiqutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qti.chiusecaseselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.chiusecaseselector.so \
@@ -3530,7 +1776,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.mcx.nonlinearmapper.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qualcomm.mcx.policy.mfl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.mcx.policy.mfl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qualcomm.mcx.policy.xr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.mcx.policy.xr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -3552,40 +1797,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libVkLayer_ADRENO_qprofiler.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@4.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@5.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@6.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@7.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@5.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@6.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.audio@7.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.1-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.2-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.3-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-qti.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-aidl-impl-qti.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/audio.primary.kalama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.kalama.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/camera.xiaomi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.xiaomi.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.dsi.ant@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/com.qti.chi.offline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.offline.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/sensors.dynamic_sensor_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.dynamic_sensor_hal.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/consumerir.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.qcom.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/sound_trigger.primary.kalama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.kalama.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
@@ -3596,23 +1821,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.hardware.wifidisplaysession@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.wifidisplaysession@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.qti.memory.pasrmanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.memory.pasrmanager@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.rongcard.hardware.eid@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.rongcard.hardware.eid@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.cld@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.cld@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.fbo@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.fbo@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.miperf@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.miperf@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/jcos_nq_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/jcos_nq_client.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-imscommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscommon.so \
@@ -3622,7 +1840,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-imsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsservice.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-imsvtcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvtcore.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsxml.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-qhcpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-qhcpservice.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcommon.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcore.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so \
@@ -3631,18 +1848,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libCOSNet_spatial_qnn_quantized.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCOSNet_spatial_qnn_quantized.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libDcfHalBleProto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDcfHalBleProto.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libDcfHalFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDcfHalFramework.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libDcfHalLogger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDcfHalLogger.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libDcfHalQtiMutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDcfHalQtiMutex.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libDspIOProxy_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDspIOProxy_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEGL_adreno.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libEvrcSwCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEvrcSwCodec.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libFace3DTA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3DTA.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libFace3D_hlos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3D_hlos.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libFileMux_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFileMux_proprietary.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLESv2_adreno.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libGPMTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPMTEEC_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
@@ -3651,10 +1862,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libHISCppAlgos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHISCppAlgos.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libMapService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMapService.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libMiMotion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMiMotion.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libMiVDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMiVDR.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxCore.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libPeripheralStateUtils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPeripheralStateUtils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPlatformValidatorShared.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQ6MSFR_manager_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQ6MSFR_manager_stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
@@ -3668,7 +1877,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQnnHtp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnHtp.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQnnHtpNetRunExtensions.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnHtpNetRunExtensions.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQnnHtpPrepare.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnHtpPrepare.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQnnHtpProfilingReader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnHtpProfilingReader.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQnnHtpV73CalculatorStub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnHtpV73CalculatorStub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQnnHtpV73Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnHtpV73Stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQnnSaver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQnnSaver.so \
@@ -3676,6 +1884,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libQtiRilLoadable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQtiRilLoadable.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libScenescape.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libScenescape.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSnpeDspV65Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSnpeDspV65Stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSnpeDspV66Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSnpeDspV66Stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSnpeHta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSnpeHta.so \
@@ -3683,6 +1892,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSnpeHtpV68Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSnpeHtpV68Stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSnpeHtpV69Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSnpeHtpV69Stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libSnpeHtpV73Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSnpeHtpV73Stub.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libStereoRectifyWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStereoRectifyWrapper.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libTouchInputVM.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTouchInputVM.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libTrustedInput.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedInput.so \
@@ -3691,13 +1901,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libTrustedUI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedUI.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libTrustedUITZ.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedUITZ.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libTrustedUIVM.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedUIVM.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libTxPwrJni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTxPwrJni.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libXMFaceFocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libXMFaceFocus.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_aptx.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_ble.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_bundle.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib_bt_lhdc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_lhdc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/lib_misound_asc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_misound_asc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libadaptlaunch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadaptlaunch.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadm.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_app_profiles.so \
@@ -3712,8 +1920,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libaodoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaodoptfeature.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libapengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapengine.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
@@ -3733,21 +1939,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbinderdebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderdebug.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbluetooth_audio_session_aidl_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl_qti.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti_2_1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libboot_control_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libboot_control_qti.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcalculator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalculator.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcalculator_htp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalculator_htp.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_scene.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcamlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamlog.so \
@@ -3774,8 +1977,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libceres.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libceres.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcert_parse.wpa_s.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcheckpid.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libchifeature2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchifeature2.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libclstc_algorithm_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclstc_algorithm_adapter.so \
@@ -3785,11 +1986,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl_plugin.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcodec2_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ac4dec.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_common.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcodec2_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_ddpdec.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcodec2_store_dolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_store_dolby.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
@@ -3809,7 +2006,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdeflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeflicker.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiagjni.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdigital-dimming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdigital-dimming.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdisplayconfig.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisplayconfig.qti.so \
@@ -3826,7 +2022,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpps.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsd2pcm.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
@@ -3844,7 +2039,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libfastmessage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastmessage.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libfilefinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilefinder.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfmpal.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgame_enhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgame_enhance.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
@@ -3857,30 +2051,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgpt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpt.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_tonemapper.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc.qti.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgralloccore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloccore.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhalide_hexagon_host.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhalide_hexagon_host.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdr10plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr10plus.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdr_backlight_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_backlight_adapter.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdr_hbm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_hbm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdr_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamic.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamicootf.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhdrvivid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvivid.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhfp_pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfp_pal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhidparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidparser.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhistogram.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhme.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhme.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libhta_hexagon_runtime_snpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta_hexagon_runtime_snpe.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libintervmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libintervmipc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libipanat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipanat.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libipebpsstriping170.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping170.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libipebpsstriping480.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping480.so \
@@ -3889,15 +2075,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libjpege.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpege.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjson.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkaraokepal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkaraokepal.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkcl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkernelmanager.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblightninglaunches.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblightninglaunches.so \
@@ -3907,43 +2090,37 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblmthermallistner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblmthermallistner.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblmutils-ns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblmutils-ns.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloadalgo_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadalgo_stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloadtrusteduiapp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadtrusteduiapp.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloc_api_wds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_wds.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloc_eng_hub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_eng_hub.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloc_qwes_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_qwes_iface.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloc_socket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_socket.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libloc_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_util.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocation_api_msg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api_msg.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocation_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_client_api.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocation_integration_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_integration_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocation_qesdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_qesdk.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblocdiagiface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocdiagiface.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblogwrap_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_client.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmapdata_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmapdata_api.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmasc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmasc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmcs.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmctfengine_stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediautils_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmemperfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemperfd.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemunreachable.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmemutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmeters-ns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters-ns.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmfGhostDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfGhostDetection.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmfec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfec.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmi-stc-HW-modulate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi-stc-HW-modulate.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmiClstc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiClstc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_ai_vision.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmialgo_globalsaliency.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_globalsaliency.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmialgo_sd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_sd.so \
@@ -3951,10 +2128,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmialgo_video_seg_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgo_video_seg_depth.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmialgoengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgoengine.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmibokeh_845_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_845_video.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmidebuggerdimpl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmidebuggerdimpl_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libminksocket_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket_vendor.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmiracast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiracast.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmis_plugin_dummy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_dummy.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmis_plugin_gme.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_gme.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmis_plugin_his.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_his.so \
@@ -3962,10 +2137,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmis_plugin_qisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_qisv2.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmis_plugin_qisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_qisv3.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmis_plugin_vidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_vidhance.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisight.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmisoundsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisoundsa.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmispowerop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmispowerop.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-omxcore.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmmcamera_bestats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_bestats.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
@@ -3979,7 +2151,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmorpho_ubwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_ubwc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmorpho_video_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_video_stabilizer.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnative-api.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnetfilter_conntrack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetfilter_conntrack.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
@@ -3995,11 +2166,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnetmgrxfrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgrxfrmutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnfnetlink.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnfnetlink.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/liboem_specific.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboem_specific.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libofflinefeatureintf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinefeatureintf.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/liboffloadhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboffloadhal.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libomp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomp.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libopencv3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv3a.so \
@@ -4019,13 +2187,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libplatformconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libplatformconfig.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libpowercallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowercallback.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libpowercore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowercore.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libprefapps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprefapps.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libprekill.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprekill.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libprocomp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprocomp.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libpsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpsi.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libpsmoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpsmoptfeature.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_adreno.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqape_oem_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqape_oem_ext.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqapesdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqapesdk.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqc2audio_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqc2audio_base.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqc2audio_basecodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqc2audio_basecodec.so \
@@ -4073,7 +2237,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqcrildataaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildataaidl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqcrildataqos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildataqos.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqdcm-algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-algo.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqdcm-json-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-json-mode-parser.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqdcm-mode-parser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdcm-mode-parser.so \
@@ -4099,26 +2262,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_legacy.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqmiextservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiextservices.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqms.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqms_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqms_client.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqnnengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqnnengine.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqrtrclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtrclient.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqsegnet.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsegnet.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqservice.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqsh_ble_pb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsh_ble_pb.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqshcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqshcamera.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti-iopd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti-qesdk-secure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-qesdk-secure.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_vndfwk_detect.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqti_vndfwk_detect_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_vndfwk_detect_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqtigefar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigefar.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqtiidentitycredential.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtiidentitycredential.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
@@ -4137,22 +2293,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libqvrservice_v4l_ov7251_hvx_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqvrservice_v4l_ov7251_hvx_tuning.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/librcmask.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcmask.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/librecovery_updater.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater_msm.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libreffeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreffeature.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libresampler.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libreverse_rpc_tests_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreverse_rpc_tests_skel.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libril-db.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-db.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libril-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-legacy.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/librilqmimiscservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmimiscservices.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmnetctl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/librmsclib1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmsclib1.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsamplefilterplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsamplefilterplugin.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
@@ -4171,16 +2323,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsensor_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_calibration.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsfeShiftExtrapolation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfeShiftExtrapolation.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libshsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshsc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsilkyscrolls.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsilkyscrolls.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libskewknob.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskewknob.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn100u_fw.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsn220u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn220u_fw.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsnapdragoncolor-manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor-manager.so \
@@ -4204,10 +2352,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libstandbyfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstandbyfeature.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstreamparser.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsxrservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsxrservice.so \
@@ -4224,9 +2370,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libtracker_6dof_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtracker_6dof_impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libturboschedmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libturboschedmanager.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibrator.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideoBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoBokeh.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideoml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoml.so \
@@ -4242,8 +2386,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvidhance_super_stabilization.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_super_stabilization.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvmfilexfer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmfilexfer.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvmmem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmmem.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvndfwk_detect_jni.qti_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvppcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppcommon.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
@@ -4253,7 +2395,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpptestutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvui_dmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvui_dmgr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvui_dmgr_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvui_dmgr_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwfdaac_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdaac_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwfdcodecv4l2_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdcodecv4l2_proprietary.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdcommonutils_proprietary.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwfdconfigutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdconfigutils_proprietary.so \
@@ -4274,14 +2415,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwfduibcsrc_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfduibcsrc_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwfduibcsrcinterface_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfduibcsrcinterface_vendor.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwfdutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdutils_proprietary.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwifi-hal-ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-ctrl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-qcom.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libwvaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvaidl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libxiaomi_qcril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxiaomi_qcril.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxlog.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libxmi_slow_motion_triger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmi_slow_motion_triger.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
@@ -4289,7 +2425,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol_uri_v3.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/ls_nq_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ls_nq_client.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/qcrilInterfaces.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrilInterfaces.so \
@@ -4306,7 +2441,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/qcrilNr_aidl_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrilNr_aidl_common.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/qcrild_libqcrilnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_libqcrilnr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/qcrild_libqcrilnrutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_libqcrilnrutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/qsysd-diag-plugin/libffbmdiagplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qsysd-diag-plugin/libffbmdiagplugin.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/qti.video.utils.videobufferlayout.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qti.video.utils.videobufferlayout.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/qtiPeripheralMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiPeripheralMgr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/qtiril-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtiril-utils.so \
@@ -4315,8 +2449,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvol.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgenerator.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/soundfx/libhwdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhwdap.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/soundfx/libmisoundfx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libmisoundfx.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
@@ -4337,23 +2469,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.color@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.6.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.color@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.10.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.11.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.3.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.4.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.5.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.6.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.7.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.8.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.9.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.config@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@2.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.libdpmctmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.libdpmctmgr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.libdpmfdmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.libdpmfdmgr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.libdpmframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.libdpmframework.so \
@@ -4370,7 +2488,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.data.factory@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.7.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.gnss-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss-V2-ndk.so \
@@ -4379,25 +2496,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth.audio-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth.audio-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@2.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.bttpi-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bttpi-V2-ndk.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon-service-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.camera.aon@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.aon@1.3.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -4418,29 +2522,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.lce@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.allocator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.allocator@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.allocator@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.allocator@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.allocator@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.allocator@4.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.composer@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.composer@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.composer@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.composer@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.composer@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.composer@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.composer@3.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.composer@3.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V2-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V3-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V4-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V5-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V6-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V6-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.demura@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.demura@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapper@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapper@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapper@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapper@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapper@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapper@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapper@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapper@4.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapperextensions@1.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.mapperextensions@1.3.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dpmservice@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.dpmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dpmservice@1.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dsp@1.0.so \
@@ -4457,10 +2538,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.2.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.3.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.power.powermodule@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.power.powermodule@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.1.so \
@@ -4516,13 +2593,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.secureprocessor.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.secureprocessor.config@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.secureprocessor.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.secureprocessor.device@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.servicetracker@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.servicetracker@1.1.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.servicetracker@1.2.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.slmadapter@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.systemhelper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.systemhelper@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.trustedui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.trustedui@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.trustedui@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.trustedui@1.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.trustedui@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.trustedui@1.2.so \
@@ -4531,9 +2604,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.2.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.3.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant-V1-ndk.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.wifi.wificfr@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.wificfr@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callcapability@1.0.so \
@@ -4575,33 +2645,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.sla.service@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.sla.service@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.sla.service@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.sla.service@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.rongcard.hardware.eid@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.rongcard.hardware.eid@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.cit.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.cit.bluetooth@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.cit.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.cit.wifi@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.cld@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.cld@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.dtool@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.fbo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fbo@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.micharge@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.miface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.miface@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.mimd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mimd@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.miperf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.miperf@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misight-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misight-V1-ndk_platform.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@4.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.quickcamera@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hidl.minet@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hidl.minet@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hidl.minet@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hidl.minet@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hidl.miwill@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hidl.miwill@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hidl.miwill@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hidl.miwill@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hw.touchfeature@1.0.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.modem.qms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.modem.qms@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.communicate@1.0.so
@@ -4609,109 +2661,45 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CACertService \
     CneApp \
-    EidService \
     IWlanService \
-    QFingerprintService \
     TimeService \
     TrustZoneAccessService \
-    TrustedUIService \
     com.qualcomm.qti.gpudrivers.kalama.api33 \
-    IFAAService \
-    PowerOffAlarm \
-    QtiTelephonyService \
-    WfdService \
-    ims \
-    qcrilmsgtunnel \
-    goodix_sz \
-    androidx.camera.extensions.impl \
-    AHBF@2.1-service \
-    android.hardware.atrace@1.0-service \
-    android.hardware.boot@1.2 \
-    android.hardware.cas@1.2-service \
-    android.hardware.drm-service.clearkey \
-    android.hardware.gnss-aidl-service-qti \
     android.hardware.graphics.mapper-impl-qti-display \
-    android.hardware.health-service.qti \
-    android.hardware.ir-service.example \
     android.hardware.radio.config \
-    android.hardware.radio.data \
-    android.hardware.radio.messaging \
-    android.hardware.radio.modem \
-    android.hardware.radio.network \
-    android.hardware.radio.sim \
-    android.hardware.radio.voice \
     android.hardware.security.keymint-service-qti \
-    android.hardware.sensors-multihal \
     android.hardware.thermal@2.0-service.qti \
-    android.hardware.usb.gadget@1.1-service \
-    android.hardware.usb@1.2-service \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi.supplicant \
-    android.hardware.wifi@1.0-service \
     bluetooth_audio \
     bttpi-saidl \
     c2_manifest_vendor \
     c2_manifest_vendor_audio \
-    dataconnection-saidl \
     deviceinfo-saidl \
-    dumpstate-xiaomi \
     fod \
     manifest_android.hardware.drm-service.widevine \
     manifest_identity_credential \
     manifest_non_qmaa \
     manifest_non_qmaa_extn \
-    manifest_vendor.xiaomi.hardware.cld \
-    manifest_vendor.xiaomi.hardware.fbo \
-    manifest_vendor.xiaomi.hardware.miface \
-    memtrack_qti \
-    mi-misight \
-    power \
-    qcrilhook-saidl \
     qms-saidl \
-    qtiradio-saidl \
     vendor.dolby.hardware.dms \
-    vendor.qti.camera.aon-impl-1.3 \
     vendor.qti.camera.postproc-impl \
     vendor.qti.camera.provider \
-    vendor.qti.diag.hal.service \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.lights.service \
     vendor.qti.hardware.limits-service \
     vendor.qti.hardware.perf \
     vendor.qti.hardware.power.powermodule \
     vendor.qti.hardware.qconfig@1.0-service \
     vendor.qti.hardware.qxr-service \
-    vendor.qti.hardware.radio.am \
-    vendor.qti.hardware.radio.ims \
     vendor.qti.hardware.radio.qtiradioconfig \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.vpp@2.0-service \
-    vendor.qti.hardware.wifi.wificfr@1.0-service \
-    vendor.qti.hardware.wifidisplaysession-service \
     vendor.qti.memory.pasrmanager@1.0-service \
-    vendor.xiaomi.cit.bluetooth@1.0_manifest \
-    vendor.xiaomi.cit.wifi@1.0_manifest \
     vendor.xiaomi.hardware.displayfeature@1.0-service \
     vendor.xiaomi.hardware.micharge@1.0 \
-    vendor.xiaomi.hardware.mimd@1.0-service \
-    vendor.xiaomi.hardware.miperf@1.0 \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
-    vendor.xiaomi.modem.qms \
-    vendor.qti.hardware.sigma_miracast \
-    face-default \
     manifest_vendor.xiaomi.hardware.mfidoca \
     manifest_vendor.xiaomi.hardware.mlipay \
     manifest_vendor.xiaomi.hardware.mtdservice \
-    manifest_vendor.xiaomi.hardware.otrpagent@2.0 \
     manifest_vendor.xiaomi.hardware.tidaservice \
-    manifest_vendor.xiaomi.hardware.vsimapp \
-    vendor.xiaomi.hardware.vibratorfeature.service \
     vendor.xiaomi.hw.touchfeature@1.0-service \
     vendor.xiaomi.sensor.citsensorservice@2.0-service \
     vendor.xiaomi.sensor.communicate@1.0_manifest
