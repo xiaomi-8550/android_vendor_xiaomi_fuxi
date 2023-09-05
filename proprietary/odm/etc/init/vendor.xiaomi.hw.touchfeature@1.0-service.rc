@@ -114,7 +114,6 @@ service panel-info-sh /system/vendor/bin/sh /odm/etc/init.panel_info.sh
     user root
     oneshot
     group root system
-    seclabel u:r:vendor_touch_init_shell:s0
 
 service touch_report /odm/bin/touch_report
     class hal
