@@ -676,6 +676,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libtruetone.so:$(TARGET_COPY_OUT_ODM)/lib64/libtruetone.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libvideomode.so:$(TARGET_COPY_OUT_ODM)/lib64/libvideomode.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libwrapper_dlengine.so:$(TARGET_COPY_OUT_ODM)/lib64/libwrapper_dlengine.so \
+    vendor/xiaomi/fuxi/proprietary/odm/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvkeybox.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libxmi_hdr_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libxmi_hdr_bokeh.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libxmi_hdr_checker.so:$(TARGET_COPY_OUT_ODM)/lib64/libxmi_hdr_checker.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib64/libxmi_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib64/libxmi_high_dynamic_range.so \
