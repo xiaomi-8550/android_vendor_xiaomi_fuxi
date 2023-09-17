@@ -544,6 +544,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/system_ext/etc/init/perfservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/perfservice.rc \
     vendor/xiaomi/fuxi/proprietary/system_ext/etc/init/qspmsvc.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspmsvc.rc \
     vendor/xiaomi/fuxi/proprietary/system_ext/etc/perf/wlc_model.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/wlc_model.tflite \
+    vendor/xiaomi/fuxi/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/fuxi/proprietary/system_ext/etc/seccomp_policy/perfservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/perfservice.policy \
     vendor/xiaomi/fuxi/proprietary/system_ext/lib/libbeluga.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libbeluga.so \
     vendor/xiaomi/fuxi/proprietary/system_ext/lib/libcomposerextn.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcomposerextn.qti.so \
@@ -2633,12 +2634,15 @@ PRODUCT_PACKAGES += \
     TimeService \
     TrustZoneAccessService \
     com.qualcomm.qti.gpudrivers.kalama.api33 \
+    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     PerformanceMode \
     PowerSaveMode \
     workloadclassifier \
     QPerformance \
     QXPerformance \
     UxPerformance \
+    com.android.hotwordenrollment.common.util \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.graphics.mapper-impl-qti-display \
     android.hardware.ir-service.example \
