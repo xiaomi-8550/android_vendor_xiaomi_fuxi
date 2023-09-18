@@ -341,36 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/st_fts_m3.ftb:$(TARGET_COPY_OUT_ODM)/firmware/st_fts_m3.ftb \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_ODM)/firmware/stm_fts_production_limits.csv \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_4v.mbn \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/aon_front.pb:$(TARGET_COPY_OUT_ODM)/lib/camera/aon_front.pb \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_ofilm_ov13b10_ultra.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_ofilm_ov13b10_ultra.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_semco_imx800_wide.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_semco_imx800_wide.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele_ii.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_semco_s5k3k1_tele_ii.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_sunny_imx800_wide_ii.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_sunny_imx800_wide_ii.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.fuxi_sunny_ov32c_front.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.fuxi_sunny_ov32c_front.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg0.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg0.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg1.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg1.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg2.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg2.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.default.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_ofilm_ov13b10_ultra.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_ofilm_ov13b10_ultra.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_semco_imx800_wide.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_semco_imx800_wide.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele_ii.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_semco_s5k3k1_tele_ii.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_sunny_imx800_wide.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_sunny_imx800_wide.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front_global.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.fuxi_sunny_ov32c_front_global.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/com.qti.tuned.tpg.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.tuned.tpg.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigpreview.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigsecure.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigvideo.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/fdconfigvideolite.bin \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libmialgo_utils.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmiface.so:$(TARGET_COPY_OUT_ODM)/lib/libmiface.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmituning_datacenter.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_datacenter.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmituning_datacenter_base.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_datacenter_base.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libmituning_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_utils.so \
-    vendor/xiaomi/fuxi/proprietary/odm/lib/libxmi_slow_motion_mein.so:$(TARGET_COPY_OUT_ODM)/lib/libxmi_slow_motion_mein.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so \
     vendor/xiaomi/fuxi/proprietary/odm/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libmialgo_night_align_cdsp_skel.so \
@@ -1478,24 +1448,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/camx.device-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/camx.provider-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/com.qti.settings.sm8550.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.settings.sm8550.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.quickcamera@1.0-impl.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libAF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAF.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libSnpeHtpV69Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSnpeHtpV69Stub.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcamxcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxcommonutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libcamxsettingsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxsettingsmanager.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmemunreachable.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemunreachable.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libmialgo_ai_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_ai_vision.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libqshcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqshcamera.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libquickcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquickcamera.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynx.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthreadutils.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n29.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n29.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n30.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n30.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n35.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n35.bin \
@@ -1593,7 +1545,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/libvpp_vqa_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_vqa_networks.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpt_action_recognition.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib/vendor.xiaomi.hardware.quickcamera@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.quickcamera@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.0.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.1.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.2.so \
@@ -2319,7 +2270,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libstandbyfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstandbyfeature.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
@@ -2341,7 +2291,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideoBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoBokeh.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideoml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoml.so \
-    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideooptfeature.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideooptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideooptfeature.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideotxr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideotxr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
