@@ -2064,6 +2064,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmorpho_ubwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_ubwc.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libmorpho_video_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_video_stabilizer.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
+    vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnative-api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnative-api.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnetfilter_conntrack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetfilter_conntrack.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/xiaomi/fuxi/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
