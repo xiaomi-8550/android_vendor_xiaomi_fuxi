@@ -258,11 +258,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/thermal-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-video.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-videochat.conf \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
-    vendor/xiaomi/fuxi/proprietary/vendor/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/1_doubelClick_P_RTP.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/2_tick_P_RTP.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/3_thud_P_RTP.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/4_pop_P_RTP.bin \
-    vendor/xiaomi/fuxi/proprietary/vendor/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/5_heavyClick_P_RTP.bin \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/B-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_ODM)/firmware/B-cs35l41-dsp1-spk-cali.bin \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/B-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_ODM)/firmware/B-cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/fuxi/proprietary/odm/firmware/B-handfree.txt:$(TARGET_COPY_OUT_ODM)/firmware/B-handfree.txt \
